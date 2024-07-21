@@ -1,0 +1,530 @@
+[2024-07-21 18:02:36] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-07-21 18:02:36] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-07-21 18:02:36] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-07-21 18:02:40] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-07-21 18:02:40] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-07-21 18:02:40] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-07-21 18:02:40] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956\
+[2024-07-21 18:02:40] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/zone-chretien-new-site/
+[2024-07-21 18:02:40] [class-ss-setup-task.php:137] File C:\xampp\htdocs\zone-chretien-new-site\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/zone-chretien-new-site/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-21 18:02:40] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-07-21 18:02:40] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-21 18:02:40] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-21 18:02:40] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-07-21 18:02:40] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/
+[2024-07-21 18:02:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-07-21 18:02:40] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:02:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d40cbc27-hLvd3O.tmp
+[2024-07-21 18:02:40] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/?simply_static_page=1
+[2024-07-21 18:02:40] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/?simply_static_page=1
+[2024-07-21 18:02:45] [class-ss-url-fetcher.php:103] Filesize: 85439 bytes
+[2024-07-21 18:02:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:02:45] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-07-21 18:02:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d40cbc27-hLvd3O.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.html
+[2024-07-21 18:02:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:02:49] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-07-21 18:02:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:02:53] [class-ss-page.php:118] Checking Content Identical:73f30810997399ff36d715a838c08e095bfe40a8===. Value: FALSE
+[2024-07-21 18:02:53] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/zone-chretien-new-site/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-21 18:02:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-07-21 18:02:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:02:53] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-07-21 18:02:53] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-07-21 18:02:54] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-21 18:02:54] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-21 18:02:54] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-21 18:02:54] [class-ss-fetch-urls-task.php:69] Total pages: 22; Pages remaining: 20
+[2024-07-21 18:02:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site
+[2024-07-21 18:02:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
+[2024-07-21 18:02:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:02:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d4e176c5-5vhakE.tmp
+[2024-07-21 18:02:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site?simply_static_page=3
+[2024-07-21 18:02:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site?simply_static_page=3
+[2024-07-21 18:02:54] [class-ss-url-fetcher.php:103] Filesize: 368 bytes
+[2024-07-21 18:02:54] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-07-21 18:02:54] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-21 18:02:54] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/zone-chretien-new-site/
+[2024-07-21 18:02:54] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-07-21 18:02:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/sample-page/
+[2024-07-21 18:02:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
+[2024-07-21 18:02:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:02:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d4e467bd-LsAfQD.tmp
+[2024-07-21 18:02:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/sample-page/?simply_static_page=4
+[2024-07-21 18:02:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/sample-page/?simply_static_page=4
+[2024-07-21 18:02:57] [class-ss-url-fetcher.php:103] Filesize: 60827 bytes
+[2024-07-21 18:02:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:02:57] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/index.html
+[2024-07-21 18:02:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d4e467bd-LsAfQD.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/sample-page/index.html
+[2024-07-21 18:02:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:02:59] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-07-21 18:03:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:00] [class-ss-page.php:118] Checking Content Identical:2ff9ddb3050efd0e4fa68c490a940ea6a790402e===. Value: FALSE
+[2024-07-21 18:03:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/2024/07/21/hello-world/
+[2024-07-21 18:03:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
+[2024-07-21 18:03:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d54d8be2-Rue9ec.tmp
+[2024-07-21 18:03:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/2024/07/21/hello-world/?simply_static_page=5
+[2024-07-21 18:03:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/2024/07/21/hello-world/?simply_static_page=5
+[2024-07-21 18:03:03] [class-ss-url-fetcher.php:103] Filesize: 77583 bytes
+[2024-07-21 18:03:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:03:03] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/07/21/hello-world/index.html
+[2024-07-21 18:03:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d54d8be2-Rue9ec.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/2024/07/21/hello-world/index.html
+[2024-07-21 18:03:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:05] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-07-21 18:03:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:06] [class-ss-page.php:118] Checking Content Identical:117e2c034ea6466918fa6ca55b45db4dcebcd1d2===. Value: FALSE
+[2024-07-21 18:03:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/author/lepolo/
+[2024-07-21 18:03:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
+[2024-07-21 18:03:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d5a90fe3-R7ggTa.tmp
+[2024-07-21 18:03:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/author/lepolo/?simply_static_page=6
+[2024-07-21 18:03:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/author/lepolo/?simply_static_page=6
+[2024-07-21 18:03:10] [class-ss-url-fetcher.php:103] Filesize: 64721 bytes
+[2024-07-21 18:03:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:03:10] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/lepolo/index.html
+[2024-07-21 18:03:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d5a90fe3-R7ggTa.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/author/lepolo/index.html
+[2024-07-21 18:03:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:11] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-07-21 18:03:12] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:12] [class-ss-page.php:118] Checking Content Identical:8331638d75da7bf34d1181ef93e574c0ca2a9bd0===. Value: FALSE
+[2024-07-21 18:03:12] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/category/uncategorized/
+[2024-07-21 18:03:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
+[2024-07-21 18:03:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d61066be-6XOkvR.tmp
+[2024-07-21 18:03:13] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/category/uncategorized/?simply_static_page=7
+[2024-07-21 18:03:13] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/category/uncategorized/?simply_static_page=7
+[2024-07-21 18:03:15] [class-ss-url-fetcher.php:103] Filesize: 57279 bytes
+[2024-07-21 18:03:15] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:03:15] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-21 18:03:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d6382fcd-8HCuFP.tmp
+[2024-07-21 18:03:15] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/category/uncategorized/
+[2024-07-21 18:03:17] [class-ss-url-fetcher.php:103] Filesize: 57279 bytes
+[2024-07-21 18:03:17] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:03:17] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-21 18:03:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-07-21 18:03:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
+[2024-07-21 18:03:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d6650ac9-iVTdqD.tmp
+[2024-07-21 18:03:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=8
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d6650ac9-iVTdqD.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-07-21 18:03:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:18] [class-ss-page.php:118] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-07-21 18:03:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-07-21 18:03:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
+[2024-07-21 18:03:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d66b63b2-ITSRbI.tmp
+[2024-07-21 18:03:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=9
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-07-21 18:03:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d66b63b2-ITSRbI.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:19] [class-ss-page.php:118] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-07-21 18:03:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d6733a0c-WieaKH.tmp
+[2024-07-21 18:03:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=10
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d6733a0c-WieaKH.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:19] [class-ss-page.php:118] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-includes/blocks/navigation/view.min.js
+[2024-07-21 18:03:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d678a34f-h8GDoi.tmp
+[2024-07-21 18:03:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-includes/blocks/navigation/view.min.js?simply_static_page=11
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-07-21 18:03:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d678a34f-h8GDoi.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-includes/blocks/navigation/view.min.js
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:19] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-07-21 18:03:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/feed/
+[2024-07-21 18:03:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
+[2024-07-21 18:03:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d685b31d-WFRdBy.tmp
+[2024-07-21 18:03:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/feed/?simply_static_page=12
+[2024-07-21 18:03:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/feed/?simply_static_page=12
+[2024-07-21 18:03:23] [class-ss-url-fetcher.php:103] Filesize: 1854 bytes
+[2024-07-21 18:03:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-21 18:03:23] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/feed/index.xml
+[2024-07-21 18:03:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d685b31d-WFRdBy.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/feed/index.xml
+[2024-07-21 18:03:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:23] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-07-21 18:03:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:23] [class-ss-page.php:118] Checking Content Identical:84954665a43378ef04b146c4af9474150268d42f===. Value: FALSE
+[2024-07-21 18:03:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/comments/feed/
+[2024-07-21 18:03:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
+[2024-07-21 18:03:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d6b8f5d2-Qh5HN3.tmp
+[2024-07-21 18:03:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/comments/feed/?simply_static_page=13
+[2024-07-21 18:03:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/comments/feed/?simply_static_page=13
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:103] Filesize: 1778 bytes
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/comments/feed/index.xml
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d6b8f5d2-Qh5HN3.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/comments/feed/index.xml
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:25] [class-ss-page.php:118] Checking Content Identical:257298322955fa075991e2a538aa115b61ffcd8f===. Value: FALSE
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-includes/blocks/navigation/style.min.css
+[2024-07-21 18:03:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d6dbe2e4-BwK7Kt.tmp
+[2024-07-21 18:03:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-includes/blocks/navigation/style.min.css?simply_static_page=14
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:103] Filesize: 16507 bytes
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-07-21 18:03:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d6dbe2e4-BwK7Kt.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-includes/blocks/navigation/style.min.css
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:25] [class-ss-page.php:118] Checking Content Identical:3f9447f88ef4d652793fad20535ffabadd59af1a===. Value: FALSE
+[2024-07-21 18:03:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-includes/blocks/image/style.min.css
+[2024-07-21 18:03:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
+[2024-07-21 18:03:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d6e037cb-YB1I7Z.tmp
+[2024-07-21 18:03:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-includes/blocks/image/style.min.css?simply_static_page=15
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-includes/blocks/image/style.min.css?simply_static_page=15
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:103] Filesize: 6358 bytes
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d6e037cb-YB1I7Z.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-includes/blocks/image/style.min.css
+[2024-07-21 18:03:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:26] [class-ss-page.php:118] Checking Content Identical:54a1fef5278908a5bbd901dea250139c6d992b6f===. Value: FALSE
+[2024-07-21 18:03:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/wp-json/
+[2024-07-21 18:03:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
+[2024-07-21 18:03:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d6e35cbf-ruGsL6.tmp
+[2024-07-21 18:03:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/wp-json/?simply_static_page=16
+[2024-07-21 18:03:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/wp-json/?simply_static_page=16
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:103] Filesize: 189018 bytes
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/index.html
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d6e35cbf-ruGsL6.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/wp-json/index.html
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:30] [class-ss-page.php:118] Checking Content Identical:03ef1968c41bbbfac3b3e8a4368cbcd0db1b4112===. Value: FALSE
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/xmlrpc.php
+[2024-07-21 18:03:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/zone-chretien-new-site/xmlrpc.php
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-includes/js/dist/interactivity.min.js
+[2024-07-21 18:03:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d7299338-2c0eo7.tmp
+[2024-07-21 18:03:30] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-includes/js/dist/interactivity.min.js?simply_static_page=18
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:103] Filesize: 36687 bytes
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-07-21 18:03:30] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d7299338-2c0eo7.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-includes/js/dist/interactivity.min.js
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:30] [class-ss-page.php:118] Checking Content Identical:22d364ee6e6e088fd118db6eff7f698bda3ea315===. Value: FALSE
+[2024-07-21 18:03:30] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-07-21 18:03:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d73097ee-u1cwPX.tmp
+[2024-07-21 18:03:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=19
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d73097ee-u1cwPX.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:31] [class-ss-page.php:118] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-07-21 18:03:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d7351789-8hnr4I.tmp
+[2024-07-21 18:03:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=20
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d7351789-8hnr4I.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:31] [class-ss-page.php:118] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-07-21 18:03:31] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d739da94-b5GgJb.tmp
+[2024-07-21 18:03:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=21
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-07-21 18:03:31] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d739da94-b5GgJb.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:31] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:31] [class-ss-page.php:118] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-07-21 18:03:32] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-07-21 18:03:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
+[2024-07-21 18:03:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d741a639-5O0G7r.tmp
+[2024-07-21 18:03:32] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-07-21 18:03:32] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=22
+[2024-07-21 18:03:32] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-07-21 18:03:32] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-21 18:03:32] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-07-21 18:03:32] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d741a639-5O0G7r.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-07-21 18:03:32] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:32] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:32] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:32] [class-ss-page.php:118] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-07-21 18:03:32] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
+[2024-07-21 18:03:32] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-21 18:03:35] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-21 18:03:35] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-21 18:03:35] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 10
+[2024-07-21 18:03:35] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-admin/
+[2024-07-21 18:03:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2024-07-21 18:03:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d77bbd13-OWKw9i.tmp
+[2024-07-21 18:03:35] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-admin/?simply_static_page=23
+[2024-07-21 18:03:35] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-admin/?simply_static_page=23
+[2024-07-21 18:03:38] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-07-21 18:03:38] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:03:38] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-21 18:03:38] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/zone-chretien-new-site/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fzone-chretien-new-site%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-07-21 18:03:38] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-07-21 18:03:38] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-07-21 18:03:38] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-07-21 18:03:38] [class-ss-page.php:118] Checking Content Identical:df9c27453cfb9cf18442522d7d402f80334d0dda===. Value: FALSE
+[2024-07-21 18:03:38] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/sample-page/feed/
+[2024-07-21 18:03:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2024-07-21 18:03:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d7abdebf-KdKBPm.tmp
+[2024-07-21 18:03:38] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/sample-page/feed/?simply_static_page=24
+[2024-07-21 18:03:38] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/sample-page/feed/?simply_static_page=24
+[2024-07-21 18:03:41] [class-ss-url-fetcher.php:103] Filesize: 799 bytes
+[2024-07-21 18:03:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-21 18:03:41] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/sample-page/feed/index.xml
+[2024-07-21 18:03:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d7abdebf-KdKBPm.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/sample-page/feed/index.xml
+[2024-07-21 18:03:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:41] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-07-21 18:03:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:41] [class-ss-page.php:118] Checking Content Identical:657bbcc8b7a7b5959b5ef7955d73eac34c623ea9===. Value: FALSE
+[2024-07-21 18:03:41] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/pages/2
+[2024-07-21 18:03:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2024-07-21 18:03:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d7d598de-IL4H8m.tmp
+[2024-07-21 18:03:41] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-07-21 18:03:41] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/pages/2?simply_static_page=25
+[2024-07-21 18:03:44] [class-ss-url-fetcher.php:103] Filesize: 3129 bytes
+[2024-07-21 18:03:44] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-07-21 18:03:44] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/pages/2\index.html
+[2024-07-21 18:03:44] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d7d598de-IL4H8m.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/wp-json/wp/v2/pages/2\index.html
+[2024-07-21 18:03:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:45] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:45] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:45] [class-ss-page.php:118] Checking Content Identical:7ccb2b25e7236729bf169e880a8235afa7ef5787===. Value: FALSE
+[2024-07-21 18:03:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/wp-json/oembed/1.0/embed
+[2024-07-21 18:03:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2024-07-21 18:03:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d8123e77-5Qqf4j.tmp
+[2024-07-21 18:03:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-07-21 18:03:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/wp-json/oembed/1.0/embed?simply_static_page=26
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:103] Filesize: 115 bytes
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:119] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-21 18:03:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-includes/js/comment-reply.min.js
+[2024-07-21 18:03:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2024-07-21 18:03:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d83b1f45-ZjxDbv.tmp
+[2024-07-21 18:03:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-includes/js/comment-reply.min.js?simply_static_page=27
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:103] Filesize: 2982 bytes
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-07-21 18:03:47] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d83b1f45-ZjxDbv.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-includes/js/comment-reply.min.js
+[2024-07-21 18:03:47] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:47] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:47] [class-ss-page.php:118] Checking Content Identical:ec867e9f141b4cf951952920b0cdba33bdfc7cb0===. Value: FALSE
+[2024-07-21 18:03:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/2024/07/21/hello-world/feed/
+[2024-07-21 18:03:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-07-21 18:03:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d84742fc-YZD47E.tmp
+[2024-07-21 18:03:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/2024/07/21/hello-world/feed/?simply_static_page=28
+[2024-07-21 18:03:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/2024/07/21/hello-world/feed/?simply_static_page=28
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:103] Filesize: 1802 bytes
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/2024/07/21/hello-world/feed/index.xml
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d84742fc-YZD47E.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/2024/07/21/hello-world/feed/index.xml
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:50] [class-ss-page.php:118] Checking Content Identical:ecdd9e1f2665045b06663e0c19708303c668eaa7===. Value: FALSE
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-includes/css/dist/block-library/common.min.css
+[2024-07-21 18:03:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d867ac2e-fjOw8h.tmp
+[2024-07-21 18:03:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/wp-includes/css/dist/block-library/common.min.css?simply_static_page=29
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:103] Filesize: 3472 bytes
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d867ac2e-fjOw8h.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/wp-includes/css/dist/block-library/common.min.css
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:50] [class-ss-page.php:118] Checking Content Identical:bbde28aa1f2f849a80a69d35191a0814c62648ca===. Value: FALSE
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/posts/1
+[2024-07-21 18:03:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-07-21 18:03:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d86bbd00-EUD9MW.tmp
+[2024-07-21 18:03:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/posts/1?simply_static_page=30
+[2024-07-21 18:03:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/posts/1?simply_static_page=30
+[2024-07-21 18:03:52] [class-ss-url-fetcher.php:103] Filesize: 2146 bytes
+[2024-07-21 18:03:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-07-21 18:03:52] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/posts/1\index.html
+[2024-07-21 18:03:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d86bbd00-EUD9MW.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/wp-json/wp/v2/posts/1\index.html
+[2024-07-21 18:03:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:52] [class-ss-page.php:118] Checking Content Identical:51bb6cdb61f40c39c733a78c323a61ba4bdc307e===. Value: FALSE
+[2024-07-21 18:03:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/author/lepolo/feed/
+[2024-07-21 18:03:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-07-21 18:03:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d890e33a-JKNSmc.tmp
+[2024-07-21 18:03:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/author/lepolo/feed/?simply_static_page=31
+[2024-07-21 18:03:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/author/lepolo/feed/?simply_static_page=31
+[2024-07-21 18:03:56] [class-ss-url-fetcher.php:103] Filesize: 1883 bytes
+[2024-07-21 18:03:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-21 18:03:56] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/author/lepolo/feed/index.xml
+[2024-07-21 18:03:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d890e33a-JKNSmc.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/author/lepolo/feed/index.xml
+[2024-07-21 18:03:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:56] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-07-21 18:03:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:56] [class-ss-page.php:118] Checking Content Identical:ee2eb21fdc8319976f5288dfddfa9a489f3c4e21===. Value: FALSE
+[2024-07-21 18:03:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/users/1
+[2024-07-21 18:03:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-07-21 18:03:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-21 18:03:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d8c84705-pFaJ5a.tmp
+[2024-07-21 18:03:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-07-21 18:03:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/index.php/wp-json/wp/v2/users/1?simply_static_page=32
+[2024-07-21 18:03:59] [class-ss-url-fetcher.php:103] Filesize: 692 bytes
+[2024-07-21 18:03:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2024-07-21 18:03:59] [class-ss-url-fetcher.php:233] New filename for static page: /index.php/wp-json/wp/v2/users/1\index.html
+[2024-07-21 18:03:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d8c84705-pFaJ5a.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956/index.php/wp-json/wp/v2/users/1\index.html
+[2024-07-21 18:03:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-21 18:03:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-21 18:03:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-21 18:03:59] [class-ss-page.php:118] Checking Content Identical:41ce54d265d2f94853fccbd553102687a0f4547b===. Value: FALSE
+[2024-07-21 18:03:59] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
+[2024-07-21 18:03:59] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-21 18:04:01] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 1
+[2024-07-21 18:04:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/zone-chretien-new-site/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fzone-chretien-new-site%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-07-21 18:04:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-07-21 18:04:01] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/zone-chretien-new-site/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fzone-chretien-new-site%2Fwp-admin%2F%3Fsimply_static_page%3D23&reauth=1
+[2024-07-21 18:04:01] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-21 18:04:01] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-21 18:04:01] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 0
+[2024-07-21 18:04:01] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-07-21 18:04:01] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-07-21 18:04:01] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-07-21 18:04:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\Lepolo\AppData\Local\Temp/669d4d91a789c-iDw5CM.tmp
+[2024-07-21 18:04:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/zone-chretien-new-site/1721585042?simply_static_page=0
+[2024-07-21 18:04:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/zone-chretien-new-site/1721585042?simply_static_page=0
+[2024-07-21 18:04:05] [class-ss-url-fetcher.php:103] Filesize: 57279 bytes
+[2024-07-21 18:04:05] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-21 18:04:05] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-07-21 18:04:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\Lepolo\AppData\Local\Temp/669d4d91a789c-iDw5CM.tmp to C:\xampp\htdocs\zone-chretien-new-site/wp-content/uploads\simply-static\temp-files/simply-static-1-1721584956\404/index.html
+[2024-07-21 18:04:05] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-07-21 18:04:06] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-07-21 18:04:08] [class-ss-page.php:118] Checking Content Identical:11732182e310a3b88da943d0c6e4641ab456cd35===. Value: FALSE
+[2024-07-21 18:04:08] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-07-21 18:04:08] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-07-21 18:04:08] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-07-21 18:04:08] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-07-21 18:04:08] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 27 of 27 files
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/sample-page
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/sample-page
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/2024/07/21/hello-world
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/2024/07/21/hello-world
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/author/lepolo
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/author/lepolo
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images
+[2024-07-21 18:04:09] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/images
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-includes/blocks/navigation
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/feed
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/feed
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/comments/feed
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/comments/feed
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-includes/blocks/navigation
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-includes/blocks/image
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-includes/js/dist
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/inter
+[2024-07-21 18:04:10] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-07-21 18:04:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-07-21 18:04:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-content/themes/twentytwentyfour/assets/fonts/cardo
+[2024-07-21 18:04:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-admin
+[2024-07-21 18:04:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/sample-page/feed
+[2024-07-21 18:04:11] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/sample-page/feed
+[2024-07-21 18:04:11] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json/wp/v2/pages
+[2024-07-21 18:04:11] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json/wp/v2/pages
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-includes/js
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/2024/07/21/hello-world/feed
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/2024/07/21/hello-world/feed
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/wp-includes/css/dist/block-library
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json/wp/v2/posts
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json/wp/v2/posts
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/author/lepolo/feed
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/author/lepolo/feed
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json/wp/v2/users
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:104] Cannot create directory: C:/xampp/htdocs/zone-chretien-new-site/index.php/wp-json/wp/v2/users
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:27. Processed Pages: 27
+[2024-07-21 18:04:12] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 27 of 27 files
+[2024-07-21 18:04:12] [trait-can-process-pages.php:103] Total pages: 27; Pages remaining: 0
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:/xampp/htdocs/zone-chretien-new-site\404\index.html
+[2024-07-21 18:04:12] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-07-21 18:04:12] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-07-21 18:04:12] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-07-21 18:04:12] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-07-21 18:04:12] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-07-21 18:04:12] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-07-21 18:04:12] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-07-21 18:04:12] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-07-21 18:04:13] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:01:36
