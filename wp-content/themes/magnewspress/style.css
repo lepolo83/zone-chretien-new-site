@@ -1,0 +1,1124 @@
+/*
+Theme Name: MagnewsPress
+Theme URI: https://cozythemes.com/magnewspress-news-wordpress-theme
+Author: CozyThemes
+Author URI: https://cozythemes.com/
+Description: MagnewsPress is the ultimate WordPress theme designed for news and magazine websites. Offering full site editing capabilities, this theme empowers you to customize every aspect of your site with ease. Choose from 30+ ready-to-use sections and 5 stunning homepage templates to create a professional and engaging online presence. Seamlessly integrated with Cozy Blocks, MagnewsPress extends your site editor's features, providing access to 30+ advanced blocks, 200+ additional sections, and over 10 more homepage templates. Whether you're running a news portal or an online magazine, MagnewsPress delivers the flexibility and tools you need to stand out in the digital landscape. Explore more about MagnewsPress at https://cozythemes.com/magnewspress-news-wordpress-theme.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+Version: 1.0.2
+Requires at least: 5.9
+Tested up to: 6.5
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: magnewspress
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.wp-block-comments textarea#comment {
+  border-radius: 0;
+}
+input[type="submit"] {
+  transition: all ease 0.23s;
+  -o-transition: all ease 0.23s;
+  -moz-transition: all ease 0.23s;
+  -webkit-transition: all ease 0.23s;
+}
+
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-textarea,
+.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number,
+.wpcf7-form-control.wpcf7-select {
+  border-radius: 5px;
+  border: 1px solid #dad7d7;
+  padding: 15px;
+  width: 100%;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.wpcf7-form-control.wpcf7-select {
+  appearance: none;
+  position: relative;
+}
+.wpcf7-form-control.wpcf7-select:after {
+  content: ">";
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+form.wpcf7-form *::placeholder {
+  font-size: 14px;
+}
+form.wpcf7-form *::-moz-placeholder {
+  font-size: 14px;
+}
+form.wpcf7-form *::-webkit-input-placeholder {
+  font-size: 14px;
+}
+.wp-block-contact-form-7-contact-form-selector .wpcf7-form-control.wpcf7-submit {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light-color);
+  border-radius: 0;
+  border: 0;
+  font-size: 16px;
+  padding: 15px 40px;
+}
+.wp-block-contact-form-7-contact-form-selector .wpcf7-form-control.has-spinner.wpcf7-submit:hover {
+  background: var(--wp--preset--color--secondary);
+  color: var(--wp--preset--color--light-color);
+}
+.wp-block-contact-form-7-contact-form-selector .wpcf7-form input,
+.wp-block-contact-form-7-contact-form-selector .wpcf7-form select,
+.wp-block-contact-form-7-contact-form-selector .wpcf7-form textarea {
+  border-radius: 0;
+  border: 1px solid var(--wp--preset--color--header-color);
+  background: transparent;
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter .wpcf7-form input {
+  border-radius: 0;
+  border: 0;
+  border: 1px solid var(--wp--preset--color--light-color);
+  background: transparent;
+}
+form.comment-form {
+  border-radius: 20px;
+  margin-top: 24px;
+}
+.wp-block-post-comments-form {
+  border-radius: 20px;
+}
+form.comment-form input[type="email"],
+form.comment-form input[type="text"],
+form.comment-form input[type="url"],
+form.comment-form textarea {
+  border-radius: 0;
+  margin: 12px 0 25px;
+}
+form.comment-form .form-submit.wp-block-button {
+  margin-top: 25px;
+}
+.wp-block-comment-author-name {
+  font-weight: 600;
+}
+
+.wp-block-comment-date a {
+  color: var(--wp--preset--color--foreground);
+  font-size: 13px;
+}
+.wp-block-comment-template li {
+  margin-top: 50px;
+}
+.wp-block-comment-template li li {
+  margin-top: 10px;
+  padding-left: 60px;
+}
+a.comment-reply-link {
+  border: 1px solid;
+  padding: 5px 13px;
+  border-radius: 40px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+.wp-block-post-comments-form {
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+}
+.woocommerce ul.products li.product a img {
+  border-radius: 5px;
+  height: 350px;
+  object-fit: cover;
+}
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  margin: 0 2.5% 2.992em 0;
+  width: 23.1%;
+}
+.woocommerce ul.products li.last,
+.woocommerce-page ul.products li.last {
+  margin-right: 0;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  border-radius: 0;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active:after {
+  display: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li:after {
+  border: 0;
+}
+.woocommerce #reviews #comments ol.commentlist {
+  padding: 0;
+  margin-top: 20px !important;
+}
+.woocommerce-page .input-text {
+  padding: 11px 30px;
+  border: 1px solid #817e7e;
+  border-radius: 5px;
+}
+.wp-block-post-excerpt__excerpt a,
+.entry-content.wp-block-post-content a,
+p a {
+  text-decoration: underline;
+}
+nav.wp-block-navigation ul li {
+  padding: 0 16px;
+}
+
+.wp-block-group.magnewspress-product-image {
+  position: relative;
+  overflow: hidden;
+}
+.wp-block-group.magnewspress-product-image .wc-block-components-product-image {
+  margin: 0;
+}
+.wp-block-columns.magnewspress-product-buttons {
+  position: absolute;
+  width: 80%;
+  bottom: -40px;
+  left: 10%;
+  transition: all ease 0.23s;
+  opacity: 0;
+}
+.wp-block-group.magnewspress-product-box:hover .wp-block-columns.magnewspress-product-buttons {
+  opacity: 1;
+  bottom: 24px;
+}
+.wp-block-group.magnewspress-product-box .wc-block-components-product-sale-badge,
+.wp-block-woocommerce-empty-cart-block .wc-block-grid__product-onsale {
+  font-size: 12px;
+  background: var(--wp--preset--color--light-color);
+  color: var(--wp--preset--color--primary);
+  border: 0;
+  top: 12px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  z-index: 1;
+}
+.wp-block-group.magnewspress-product-box .wc-block-components-product-sale-badge.wc-block-components-product-sale-badge--align-left {
+  left: 12px;
+}
+.wp-block-woocommerce-product-sale-badge.magnewspress-sales-bade .wc-block-components-product-sale-badge {
+  right: 12px;
+  position: absolute;
+}
+.wp-block-group.magnewspress-product-box .wc-block-components-product-sale-badge.wc-block-components-product-sale-badge--align-right {
+  right: 12px;
+}
+.wp-block-group.magnewspress-product-box .wp-block-group.magnewspress-product-image img {
+  transition: all ease 0.23s;
+}
+
+.wp-block-group.magnewspress-product-box:hover .wp-block-group.magnewspress-product-image {
+  transform: translateY(-7px);
+}
+.wp-block-group.magnewspress-product-box .wc-block-components-product-price del {
+  color: var(--wp--preset--color--primary);
+}
+.wp-block-group.magnewspress-product-box .wc-block-components-product-price ins {
+  text-decoration: none;
+}
+.wp-block-group.magnewspress-product-box .wp-block-woocommerce-product-price {
+  margin-block-start: 0;
+}
+.wc-block-grid__product-rating .wc-block-grid__product-rating__stars:before {
+  color: var(--wp--preset--color--meta-color);
+}
+.wc-block-grid__product-rating .wc-block-grid__product-rating__stars span:before,
+.woocommerce .star-rating::before,
+.woocommerce .star-rating span::before,
+.wc-block-grid__product-rating .star-rating span:before,
+.wc-block-grid__product-rating .wc-block-grid__product-rating__stars span:before {
+  color: var(--wp--preset--color--star-color);
+}
+.wp-block-group.magnewspress-product-box a.wp-block-read-more,
+.wp-block-group.magnewspress-product-box a.wp-block-button__link.wp-element-button.wc-block-components-product-button__button,
+.wp-block-group.magnewspress-product-box button.wp-block-button__link.wp-element-button.wc-block-components-product-button__button.add_to_cart_button {
+  width: 100%;
+  text-align: center;
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light-color);
+  padding: 12px 0;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.wp-block-group.magnewspress-product-box a.wp-block-read-more:hover,
+.wp-block-group.magnewspress-product-box a.wp-block-button__link.wp-element-button.wc-block-components-product-button__button:hover,
+.wp-block-group.magnewspress-product-box button.wp-block-button__link.wp-element-button.wc-block-components-product-button__button.add_to_cart_button:hover {
+  background: var(--wp--preset--color--secondary);
+}
+@keyframes mightybuilders-BrandScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.wp-block-group.magnewspress-brand-showcase {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+figure.wp-block-gallery.magnewspress-brands {
+  animation: mightybuildersBrandScroll 30s linear infinite;
+  -webkit-animation: mightybuildersBrandScroll 30s linear infinite;
+  -moz-animation: mightybuildersBrandScroll 30s linear infinite;
+  flex-wrap: nowrap;
+  animation-play-state: running;
+}
+
+.wp-block-group.magnewspress-brand-showcase:hover figure.wp-block-gallery.magnewspress-brands {
+  animation-play-state: paused;
+}
+figure.wp-block-gallery.magnewspress-brands figure.wp-block-image {
+  width: 240px !important;
+  width: auto;
+  height: auto;
+  max-height: 80px !important;
+  margin: 0 30px !important;
+}
+figure.wp-block-gallery.magnewspress-brands figure.wp-block-image img {
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  transition: all ease 0.23s;
+}
+figure.wp-block-gallery.magnewspress-brands figure.wp-block-image img:hover {
+  transform: scale(1.1);
+}
+.wp-block-cover.magnewspress-cover-hover {
+  background: #000;
+}
+.wp-block-cover.magnewspress-cover-hover:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  opacity: 0.35;
+  -webkit-opacity: 0.35;
+  -moz-opacity: 0.35;
+}
+.wp-block-cover.magnewspress-cover-hover.opacity-none:hover img {
+  opacity: 1;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+}
+.wp-block-group.magnewspress-product-cats {
+  transition: all ease 0.23s;
+}
+.wp-block-group.magnewspress-product-cats:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter form.wpcf7-form {
+  position: relative;
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter span.wpcf7-form-control-wrap {
+  width: 100%;
+  float: left;
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter input.wpcf7-form-control.wpcf7-submit:hover {
+  background: var(--wp--preset--color--secondary);
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter input.wpcf7-form-control.wpcf7-submit {
+  margin-top: 10px;
+  background: var(--wp--preset--color--primary);
+  height: 50px;
+  position: absolute;
+  right: 8px;
+  padding: 0 30px;
+  color: #fff;
+  top: 8px;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  border-radius: 0;
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter span.wpcf7-form-control-wrap input {
+  height: 65px;
+  padding: 0 20px;
+  color: #fff;
+  transition: all ease 0.23s;
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter span.wpcf7-form-control-wrap input:focus {
+  padding-left: 20px;
+}
+.wp-block-contact-form-7-contact-form-selector.magnewspress-newsletter span.wpcf7-form-control-wrap input::placeholder {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+}
+.magnewspress-nav-search.wp-block-search .wp-block-search__inside-wrapper {
+  justify-content: end;
+}
+.magnewspress-nav-search.wp-block-search .wp-block-search__inside-wrapper svg {
+  height: 34px;
+  width: 34px;
+}
+
+.wp-block-woocommerce-customer-account a .wc-block-customer-account__account-icon {
+  width: 21px;
+  height: 21px;
+}
+.magnewspress-navigation.wp-block-navigation ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+  padding: 0;
+  border: 0;
+  transition: all ease 0.23s;
+  transform: translateY(40px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.23);
+}
+.magnewspress-navigation.wp-block-navigation li:hover ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+  transform: translateY(0px);
+}
+.magnewspress-header .wp-block-navigation.magnewspress-navigation {
+  gap: 0;
+}
+.wp-block-navigation.magnewspress-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+  line-height: 60px;
+}
+.magnewspress-navigation.wp-block-navigation ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu .wp-block-navigation-item__content.wp-block-navigation-item__content {
+  line-height: 30px;
+  transition: all ease 0.23s;
+}
+/* .magnewspress-navigation.wp-block-navigation ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+  background-color: #ededed;
+} */
+.woocommerce.wc-block-catalog-sorting select.orderby {
+  height: 30px;
+  border: 0;
+}
+.wc-block-product-categories.magnewspress-products-category-filter ul.wc-block-product-categories-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wc-block-product-categories.magnewspress-products-category-filter ul.wc-block-product-categories-list li {
+  margin-bottom: 7px;
+}
+.wc-block-product-categories.magnewspress-products-category-filter ul.wc-block-product-categories-list li a:hover span.wc-block-product-categories-list-item__name {
+  color: var(--wp--preset--color--primary);
+}
+.woocommerce .wp-block-woocommerce-product-image-gallery {
+  max-width: 100%;
+}
+.woocommerce .wp-block-woocommerce-product-image-gallery span.onsale {
+  left: 10px;
+  right: unset;
+  z-index: 1;
+  top: 10px;
+  background: var(--wp--preset--color--primary);
+  font-size: 14px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  background-color: transparent;
+  border: 0;
+  margin: 0 30px 0 0;
+  padding: 0;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {
+  display: none;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+  padding: 0;
+  border-width: 0;
+  position: relative;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
+  color: var(--wp--preset--color--heading-color);
+  font-weight: 600;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  padding: 16px 0;
+  font-weight: 400;
+  position: relative;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a:after,
+.woocommerce div.product .woocommerce-tabs ul.tabs:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background: var(--wp--preset--color--heading-color);
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs:after {
+  background-color: var(--wp--preset--color--border-color);
+}
+.woocommerce-tabs.wc-tabs-wrapper h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+button.single_add_to_cart_button.button.alt.wp-element-button,
+.wc-block-cart__submit.wp-block-woocommerce-proceed-to-checkout-block a.components-button.wc-block-components-button,
+a.components-button.wc-block-components-button.wp-element-button.wp-block-woocommerce-mini-cart-checkout-button-block.wc-block-mini-cart__footer-checkout.contained {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light-color);
+  padding: 15px 60px;
+}
+button.single_add_to_cart_button.button.alt.wp-element-button:hover,
+.wc-block-cart__submit.wp-block-woocommerce-proceed-to-checkout-block a.components-button.wc-block-components-button:hover,
+a.components-button.wc-block-components-button.wp-element-button.wp-block-woocommerce-mini-cart-checkout-button-block.wc-block-mini-cart__footer-checkout.contained:hover {
+  background: var(--wp--preset--color--secondary);
+}
+.woocommerce div.product form.cart div.quantity .qty {
+  background: #f3f3f3;
+  border: 0;
+  padding: 14px 40px;
+  font-size: 20px;
+}
+.wp-block-woocommerce-cart-order-summary-block,
+.wp-block-woocommerce-checkout-order-summary-block {
+  background: var(--wp--preset--color--background-alt);
+  padding: 24px;
+  border-radius: 20px;
+}
+.wc-block-cart__submit.wp-block-woocommerce-proceed-to-checkout-block {
+  margin-top: 24px;
+}
+.wc-block-cart-item__wrap a.wc-block-components-product-name {
+  color: var(--wp--preset--color--heading-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+.wc-block-cart-item__wrap a.wc-block-components-product-name:hover {
+  color: var(--wp--preset--color--secondary);
+}
+span.wc-block-formatted-money-amount.wc-block-components-formatted-money-amount.wc-block-components-product-price__value,
+.wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal span.wc-block-components-totals-item__label,
+.wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal span.wc-block-formatted-money-amount.wc-block-components-formatted-money-amount.wc-block-components-totals-item__value {
+  font-weight: 600;
+  color: var(--wp--preset--color--heading-color);
+}
+.wc-block-components-totals-wrapper {
+  border-top: 0;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__quantity {
+  background: #000;
+  color: #fff;
+}
+
+.wp-block-button.magnewspress-more-products a.wp-element-button:hover {
+  border-bottom-color: var(--wp--preset--color--secondary) !important;
+}
+button.components-button.wc-block-components-button.wp-element-button.wc-block-components-checkout-place-order-button {
+  color: #fff;
+}
+form.comment-form .form-submit.wp-block-button input#submit {
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 0;
+}
+.wp-block-post-comments-form input:not([type="submit"]),
+.wp-block-post-comments-form textarea {
+  border-color: #d4d4d4;
+}
+.wp-block-button.magnewspress-cat-more a.wp-block-button__link {
+  width: 40px;
+  height: 40px;
+  text-indent: -5000px;
+  padding: 0;
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.wp-block-button.magnewspress-cat-more a.wp-block-button__link:after {
+  content: "";
+  width: 10px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 7px 0 7px 11px;
+  border-color: transparent transparent transparent var(--wp--preset--color--primary);
+  transform: rotate(0deg);
+  position: absolute;
+  left: 16px;
+  top: 14px;
+}
+.wp-block-button.magnewspress-cat-more a.wp-block-button__link:hover:after {
+  border-color: transparent transparent transparent var(--wp--preset--color--light-color);
+}
+.wp-block-cover.magnewspress-category-box:hover .wp-block-button.magnewspress-cat-more a.wp-block-button__link {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+.wc-block-cart-items.wp-block-woocommerce-cart-line-items-block td.wc-block-cart-item__image {
+  padding: 16px 0 !important;
+}
+.wc-block-cart-items.wp-block-woocommerce-cart-line-items-block td.wc-block-cart-item__image img {
+  border-radius: 12px;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__image img {
+  border-radius: 4px;
+}
+.wpcf7 form .wpcf7-response-output {
+  margin: 0;
+  padding: 5px 10px;
+  border: 1px solid #00a0d2;
+}
+.wp-block-group.magnewspress-sticky-menu {
+  transition: all ease 0.23s;
+}
+.wp-block-group.magnewspress-sticky-menu.sticky-menu-enabled {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  padding: 5px 30px;
+  border-radius: 0;
+  z-index: 999;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+}
+.wp-block-group.magnewspress-sticky-menu.sticky-menu-enabled:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  background: var(--wp--preset--color--dark-shade);
+  top: 0;
+  z-index: 1;
+  opacity: 0.8;
+}
+body.logged-in .wp-block-group.magnewspress-sticky-menu.sticky-menu-enabled {
+  top: 30px;
+}
+.wp-block-group.magnewspress-sticky-menu.sticky-menu-enabled .magnewspress-sticky-navigation {
+  z-index: 2;
+  position: relative;
+}
+.wp-block-button.magnewspress-scrollto-top .wp-block-button__link.wp-element-button {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  display: inline-block;
+  z-index: 999;
+  text-indent: -5000px;
+  display: none;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.089);
+}
+.wp-block-button.magnewspress-scrollto-top .wp-block-button__link.wp-element-button:after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  -webkit-mask-image: url(assets/images/up-arrow.svg);
+  mask-image: url(assets/images/up-arrow.svg);
+  mask-repeat: no-repeat;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+}
+.wp-block-button.magnewspress-scrollto-top .wp-block-button__link.wp-element-button:hover:after {
+  background-color: var(--wp--preset--color--light-color) !important;
+}
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+  width: 68px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+}
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+  border: 0;
+  background: var(--wp--preset--color--light-shade);
+  margin-left: 80px;
+}
+.wp-block-woocommerce-empty-cart-block .wc-block-grid.wp-block-product-new.wc-block-product-new {
+  margin-top: 20px;
+}
+.wp-block-woocommerce-empty-cart-block h2.wp-block-heading.has-text-align-center {
+  font-size: 30px;
+}
+.wc-block-cart__empty-cart__title.with-empty-cart-icon:before {
+  background-color: var(--wp--preset--color--primary);
+}
+.wp-block-woocommerce-empty-cart-block img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+  height: 340px;
+  border-radius: 20px;
+}
+.wp-block-woocommerce-empty-cart-block .wc-block-grid__products {
+  margin: 0;
+  padding: 0;
+  grid-gap: 32px;
+}
+.wp-block-woocommerce-empty-cart-block .wc-block-grid__products li.wc-block-grid__product {
+  max-width: 23% !important;
+  border: 0 !important;
+}
+.wp-block-woocommerce-empty-cart-block .wc-block-grid__product-title {
+  font-size: 16px;
+  color: var(--wp--preset--color--heading-color);
+}
+.wp-block-woocommerce-empty-cart-block a:hover .wc-block-grid__product-title {
+  color: var(--wp--preset--color--secondary);
+}
+.wp-block-woocommerce-empty-cart-block a.wp-block-button__link.wp-element-button.add_to_cart_button {
+  color: #fff;
+  padding: 12px 40px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.wc-block-mini-cart__empty-cart-wrapper a.components-button.wc-block-components-button.wc-block-mini-cart__shopping-button {
+  color: #fff;
+  padding: 14px 30px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation {
+  background: var(--wp--preset--color--light-shade);
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #ebefef;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li a {
+  color: var(--wp--preset--color--heading-color);
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li a:hover {
+  color: var(--wp--preset--color--secondary);
+}
+.woocommerce-account button.woocommerce-Button.button.wp-element-button,
+.wp-element-button,
+.wp-block-button__link {
+  color: #fff;
+}
+.woocommerce-account .woocommerce-MyAccount-content {
+  width: 65%;
+}
+header.woocommerce-Address-title.title h3 {
+  font-size: 20px;
+}
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+  float: left;
+  width: 100%;
+}
+span.wc-block-mini-cart__badge {
+  color: #fff;
+}
+h2.wc-block-mini-cart__title {
+  font-size: 24px;
+}
+
+ul.wp-block-social-links.maganewspress-header-social li.wp-social-link svg,
+ul.wp-block-social-links.magnewspress-footer-social li.wp-social-link svg {
+  width: 18px;
+  height: 18px;
+}
+ul.wp-block-social-links.maganewspress-header-social li.wp-social-link:hover {
+  transform: translateY(-3px);
+}
+ul.wp-block-social-links.maganewspress-header-social li.wp-social-link a:hover {
+  background-color: var(--wp--preset--color--primary);
+  border-radius: 50%;
+}
+ul.wp-block-social-links.maganewspress-header-social li.wp-social-link a:hover svg {
+  fill: #fff;
+}
+.magnewspress-trending-tags.wp-block-tag-cloud a:before,
+.taxonomy-post_tag.is-style-categories-background.wp-block-post-terms a:before {
+  content: "#";
+}
+.magnewspress-trending-tags.wp-block-tag-cloud a,
+.taxonomy-post_tag.is-style-categories-background.wp-block-post-terms a {
+  background: var(--wp--preset--color--tag-bg-color);
+  padding: 5px 12px;
+  text-decoration: none;
+  color: var(--wp--preset--color--heading-color);
+  margin-right: 20px;
+}
+.taxonomy-post_tag.is-style-categories-background.wp-block-post-terms span.wp-block-post-terms__separator {
+  display: none;
+}
+.magnewspress-trending-tags.wp-block-tag-cloud a:hover,
+.taxonomy-post_tag.is-style-categories-background.wp-block-post-terms a:hover {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--light-color);
+}
+ul.wp-block-social-links.magnewspress-sidebar-social li {
+  width: 49.1%;
+  margin-bottom: 6px !important;
+}
+ul.wp-block-social-links.magnewspress-sidebar-social li.wp-block-social-link:hover {
+  transform: scale(1.01) translateY(-3px);
+}
+ul.wp-block-social-links.magnewspress-sidebar-social {
+  gap: 10px;
+  display: inline-block;
+}
+ul.wp-block-social-links.magnewspress-sidebar-social li a {
+  border: 1px solid !important;
+  padding: 10px 15px !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+.wp-block-cover.magnewspress-translate-cover,
+.wp-block-columns.magnewspress-zoom-columns,
+.wp-block-group.magnewspresss-group-hover,
+.wp-block-column.magnewspresss-column-hover {
+  transition: all ease 0.23s;
+  overflow: hidden;
+}
+.wp-block-cover.magnewspress-translate-cover:hover {
+  transform: scale(1.02) translateY(-3px);
+}
+.wp-block-cover.magnewspress-translate-cover:hover img.wp-block-cover__image-background {
+  transform: scale(1.1);
+}
+.wp-block-columns.magnewspress-translate-columns:hover,
+.wp-block-group.magnewspresss-group-hover:hover,
+.wp-block-column.magnewspresss-column-hover:hover {
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.14);
+  transform: translateY(-7px);
+}
+.wp-block-query.magnewspress-ticker {
+  overflow: hidden !important;
+  max-width: 560px !important;
+}
+.wp-block-query.magnewspress-slider {
+  overflow: hidden;
+  position: relative;
+}
+.wp-block-query.magnewspress-ticker li.swiper-slide,
+.wp-block-query.magnewspress-slider li.swiper-slide {
+  margin-block-start: 0 !important;
+}
+.swiper-pagination.magnewspress-pagination {
+  position: absolute;
+  top: -11px !important;
+  width: 100px !important;
+  right: 15px;
+  left: auto !important;
+  height: 20px;
+}
+.swiper-pagination.magnewspress-pagination span.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
+
+/* .wp-block-query.magnewspress-ticker li.swiper-slide:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: var(--wp--preset--color--primary);
+  position: absolute;
+  left: 0;
+  top: 5px;
+} */
+figure.wp-block-image.breakingnews-ticker-icon img {
+  animation: mgpflash 1s linear infinite;
+}
+.wp-block-query.magnewspress-slider .magnewspress-navigation .magnewspress-button-prev,
+.wp-block-query.magnewspress-slider .magnewspress-navigation .magnewspress-button-next {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--wp--preset--color--light-color);
+  color: var(--wp--preset--color--primary);
+  opacity: 0;
+  transition: all ease 0.23s;
+}
+.wp-block-query.magnewspress-slider .magnewspress-navigation .magnewspress-button-prev {
+  left: 0;
+}
+.wp-block-query.magnewspress-slider .magnewspress-navigation .magnewspress-button-next {
+  right: 0;
+}
+.wp-block-query.magnewspress-slider:hover .magnewspress-navigation .magnewspress-button-prev {
+  left: 20px;
+}
+.wp-block-query.magnewspress-slider:hover .magnewspress-navigation .magnewspress-button-next {
+  right: 20px;
+}
+.wp-block-query.magnewspress-slider:hover .magnewspress-navigation .magnewspress-button-prev,
+.wp-block-query.magnewspress-slider:hover .magnewspress-navigation .magnewspress-button-next {
+  opacity: 1;
+}
+.wp-block-query.magnewspress-slider .swiper-button-prev:after,
+.wp-block-query.magnewspress-slider .swiper-button-next:after {
+  font-size: 16px;
+}
+.wp-block-query.magnewspress-slider .magnewspress-navigation .magnewspress-button-prev:hover,
+.wp-block-query.magnewspress-slider .magnewspress-navigation .magnewspress-button-next:hover {
+  color: var(--wp--preset--color--light-color);
+  background-color: var(--wp--preset--color--primary);
+}
+@keyframes mgpflash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.block-editor-block-list__block.wp-block.swiper-wrapper.magnewspress-swiper-holder li {
+  display: none;
+}
+.block-editor-block-list__block.wp-block.swiper-wrapper.magnewspress-swiper-holder li:first-child {
+  display: block;
+}
+.magnewspress-slider-controls.wp-block-group.block-editor-block-list__layout .wp-block.wp-block-html {
+  display: none;
+}
+.magnewspress-slider-controls.wp-block-group.block-editor-block-list__layout .wp-block.is-selected.wp-block-html {
+  display: block;
+}
+.magnewspress-nav-search form.wp-block-search__button-inside.wp-block-search__icon-button.wp-block-search {
+  width: 760px;
+  max-width: 100%;
+  margin-top: 15%;
+}
+.magnewspress-nav-search form.wp-block-search__button-inside.wp-block-search__icon-button.wp-block-search .wp-block-search__input {
+  padding: 0 0 0 20px;
+}
+.wp-block-navigation__responsive-container.has-modal-open .wp-block-navigation__responsive-close {
+  padding: 20px;
+}
+.magnewspress-nav-search button.wp-block-navigation__responsive-container-open {
+  mask-image: url(assets/images/search-icon.svg);
+  height: 24px;
+  background: #ffffff;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}
+.magnewspress-nav-search button.wp-block-navigation__responsive-container-open:hover {
+  background: var(--wp--preset--color--primary);
+}
+.magnewspress-nav-search button.wp-block-navigation__responsive-container-open svg {
+  height: 0;
+}
+.wp-block-search__input {
+  padding: 0 20px;
+}
+.magnewspress-sidebar-cat.wp-block-categories li {
+  display: flex;
+  justify-content: space-between;
+  line-height: 35px;
+}
+.magnewspress-sidebar-tags.wp-block-tag-cloud a.tag-cloud-link {
+  background: var(--wp--preset--color--tag-bg-color);
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 0 0 3px;
+  text-decoration: none;
+  color: var(--wp--preset--color--foreground);
+}
+.magnewspress-sidebar-tags.wp-block-tag-cloud a.tag-cloud-link:hover {
+  background: var(--wp--preset--color--secondary);
+  color: #fff;
+}
+.wp-block-column.magnewspress-sidebar-tabs .cozy-advanced-tab-wrapper {
+  margin-top: -3px;
+}
+.magnewspress-footer-cat-3.wp-block-categories li {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  color: #fff;
+}
+.magnewspress-footer-cat-3.wp-block-categories li a {
+  color: #fff;
+}
+.magnewspress-footer-cat-3.wp-block-categories li:hover a,
+.magnewspress-footer-categories.wp-block-categories li a:hover,
+p.magnewspress-footer-tags.wp-block-tag-cloud a:hover,
+ul.wp-block-categories-list.magnewspress-footer-categories.category-style-2.wp-block-categories li a:hover {
+  color: var(--wp--preset--color--secondary);
+}
+.wp-block-cover.magnewspress-custom-categories {
+  position: relative;
+}
+.wp-block-cover.magnewspress-custom-categories:before {
+  content: "";
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  position: absolute;
+  border: 1px solid #e7f8f14a;
+  z-index: 2;
+  border-radius: 20px;
+}
+.wp-block-cover.magnewspress-custom-categories .wp-block-cover__inner-container {
+  z-index: 3;
+}
+.magnewspress-footer-categories.wp-block-categories li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.magnewspress-footer-categories.wp-block-categories li,
+.magnewspress-footer-categories.wp-block-categories li a {
+  color: #fff;
+}
+p.magnewspress-footer-tags.wp-block-tag-cloud a {
+  color: #fff;
+  border: 1px solid;
+  padding: 4px 6px;
+  margin: 0 0 3px;
+}
+ul.wp-block-categories-list.magnewspress-footer-categories.category-style-2.wp-block-categories li a,
+ul.wp-block-categories-list.magnewspress-footer-categories.category-style-2.wp-block-categories li {
+  color: var(--wp--preset--color--heading-color);
+}
+@keyframes mnpImageScale {
+  50% {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+}
+.wp-block-cover.cover-image-zoom img.wp-block-cover__image-background.wp-post-image {
+  animation: mnpImageScale 40s linear infinite;
+}
+.wp-block-group.magnewspress-overlay-group {
+  margin-top: -50px !important;
+  z-index: 2;
+  position: relative;
+}
+#mnpblinker {
+  position: relative;
+  margin: -12px 22px 0 0;
+}
+
+.mnppulse {
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+}
+
+.mnpdot {
+  border: 10px double var(--wp--preset--color--secondary);
+  background: transparent;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  height: 40px;
+  width: 40px;
+  -webkit-animation: mnpPulse 2.5s ease-out 1s;
+  -moz-animation: mnpPulse 2.5s ease-out 1s;
+  animation: mnpPulse 2.5s ease-out 1s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: -24px;
+  left: -24px;
+  z-index: 1;
+  opacity: 0;
+}
+
+@keyframes mnpPulse {
+  0% {
+    -moz-transform: scale(0);
+    opacity: 0;
+  }
+  25% {
+    -moz-transform: scale(0);
+    opacity: 0.1;
+  }
+  50% {
+    -moz-transform: scale(0.1);
+    opacity: 0.3;
+  }
+  75% {
+    -moz-transform: scale(0.4);
+    opacity: 0.5;
+  }
+  100% {
+    -moz-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes mnpPulse {
+  0% {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  25% {
+    -webkit-transform: scale(0);
+    opacity: 0.1;
+  }
+  50% {
+    -webkit-transform: scale(0.1);
+    opacity: 0.3;
+  }
+  75% {
+    -webkit-transform: scale(0.4);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+}
+.block-editor-block-list__block.wp-block.newsticker-heading .wp-block.wp-block-html {
+  display: none;
+}
+.block-editor-block-list__block.wp-block.newsticker-heading .block-editor-block-list__block.wp-block.is-selected.wp-block-html {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .wp-block-navigation.magnewspress-navigation ul {
+    grid-gap: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .wp-block-navigation.magnewspress-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+    line-height: 30px;
+    padding: 0;
+  }
+  .magnewspress-navigation.wp-block-navigation ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+  .magnewspress-navigation.wp-block-navigation ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu .wp-block-navigation-item__content.wp-block-navigation-item__content:hover {
+    background-color: transparent;
+  }
+  .magnewspress-trending-tags.wp-block-tag-cloud a,
+  .taxonomy-post_tag.is-style-categories-background.wp-block-post-terms a {
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+}

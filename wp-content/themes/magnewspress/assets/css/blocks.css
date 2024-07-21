@@ -1,0 +1,300 @@
+a,
+button,
+img,
+.wp-block-group,
+.wp-block-columns,
+.wp-block-column {
+  transition: all ease 0.23s;
+}
+.wp-block-image.is-style-magnewspress-boxshadow img,
+.wp-block-column.is-style-magnewspress-boxshadow,
+.wp-block-columns.is-style-magnewspress-boxshadow,
+.wp-block-group.is-style-magnewspress-boxshadow {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+}
+.wp-block-image.is-style-magnewspress-boxshadow-medium img,
+.wp-block-column.is-style-magnewspress-boxshadow-medium,
+.wp-block-columns.is-style-magnewspress-boxshadow-medium,
+.wp-block-group.is-style-magnewspress-boxshadow-medium {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.wp-block-image.is-style-magnewspress-boxshadow-large img,
+.wp-block-column.is-style-magnewspress-boxshadow-large,
+.wp-block-columns.is-style-magnewspress-boxshadow-large,
+.wp-block-group.is-style-magnewspress-boxshadow-large {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+.wp-block-image.is-style-magnewspress-boxshadow-hover img:hover,
+.wp-block-column.is-style-magnewspress-boxshadow-hover:hover,
+.wp-block-columns.is-style-magnewspress-boxshadow-hover:hover,
+.wp-block-group.is-style-magnewspress-boxshadow-hover:hover {
+  box-shadow: 0 0 48px rgba(0, 0, 0, 0.15);
+}
+.taxonomy-category.is-style-categories-background a {
+  padding: 4px 8px;
+  background-color: var(--wp--preset--color--primary);
+  border-radius: 0;
+  position: relative;
+  overflow: hidden;
+  color: var(--wp--preset--color--light-color);
+  margin-right: 10px;
+  display: inline-block;
+}
+.taxonomy-category.is-style-categories-background.primary-color-purple a {
+  background-color: #971a83;
+}
+.taxonomy-category.is-style-categories-background.primary-color-green a {
+  background-color: #1a9763;
+}
+.taxonomy-category.is-style-categories-background.primary-color-liteblue a {
+  background-color: #00acc1;
+}
+.taxonomy-category.is-style-categories-background.primary-color-vivid a {
+  background-color: #641cff;
+}
+.taxonomy-category.is-style-categories-background a:nth-child(3),
+.taxonomy-category.is-style-categories-background a:nth-child(9),
+.taxonomy-category.is-style-categories-background a:nth-child(13) {
+  background-color: var(--wp--preset--color--second-cat-color);
+}
+.taxonomy-category.is-style-categories-background a:nth-child(5),
+.taxonomy-category.is-style-categories-background a:nth-child(11),
+.taxonomy-category.is-style-categories-background a:nth-child(15) {
+  background-color: var(--wp--preset--color--third-cat-color);
+}
+
+.taxonomy-category.is-style-categories-background a:hover {
+  background-color: var(--wp--preset--color--secondary);
+}
+.taxonomy-category.is-style-categories-background .wp-block-post-terms__separator {
+  display: none;
+}
+/*styling post title for hover*/
+.is-style-title-hover-primary-color.wp-block-post-title a:hover {
+  color: var(--wp--preset--color--primary);
+}
+.is-style-title-hover-secondary-color.wp-block-post-title a:hover {
+  color: var(--wp--preset--color--secondary);
+}
+/*button hover style*/
+.wp-block-button.is-style-button-hover-primary-color a:hover {
+  color: var(--wp--preset--color--primary) !important;
+  border-color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-button.is-style-button-hover-secondary-color a:hover {
+  color: var(--wp--preset--color--secondary) !important;
+  border-color: var(--wp--preset--color--secondary) !important;
+}
+.wp-block-button.is-style-button-hover-primary-bgcolor a.wp-block-button__link.wp-element-button:hover {
+  background-color: var(--wp--preset--color--primary) !important;
+  opacity: 1;
+  color: var(--wp--preset--color--light-color) !important;
+  border-color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-button.is-style-button-hover-secondary-bgcolor a.wp-block-button__link.wp-element-button:hover {
+  background-color: var(--wp--preset--color--secondary) !important;
+  opacity: 1;
+  color: var(--wp--preset--color--light-color) !important;
+  border-color: var(--wp--preset--color--secondary) !important;
+}
+
+/*Styling read more block for hover*/
+.is-style-readmore-hover-primary-color.wp-block-read-more:hover,
+.is-style-hide-bullet-list-link-hover-style-primary a:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
+.is-style-readmore-hover-secondary-color.wp-block-read-more:hover,
+.is-style-hide-bullet-list-link-hover-style-secondary a:hover {
+  color: var(--wp--preset--color--secondary) !important;
+}
+
+.is-style-readmore-hover-primary-fill.wp-block-read-more:hover {
+  background-color: var(--wp--preset--color--primary) !important;
+  color: #fff !important;
+}
+.is-style-readmore-hover-secondary-fill.wp-block-read-more:hover {
+  background-color: var(--wp--preset--color--secondary) !important;
+  color: #fff !important;
+}
+/*style list for ul*/
+.is-style-list-style-no-bullet,
+.is-style-hide-bullet-list-link-hover-style-primary,
+.is-style-hide-bullet-list-link-hover-style-secondary {
+  list-style-type: none;
+}
+/*image hover effect*/
+figure.wp-block-image.is-style-magnewspress-image-hover-rotate img:hover {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+.wp-block-image.is-style-magnewspress-image-hover-pulse img:hover {
+  animation: mighty-buildersPulse 2s infinite;
+  -moz-animation: mighty-buildersPulse 2s infinite;
+  -o-animation: mighty-buildersPulse 2s infinite;
+  -webkit-animation: mighty-buildersPulse 2s infinite;
+  animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+.wp-block-image.is-style-magnewspress-image-pulse img {
+  animation: mighty-buildersPulse 2s infinite;
+  -moz-animation: mighty-buildersPulse 2s infinite;
+  -o-animation: mighty-buildersPulse 2s infinite;
+  -webkit-animation: mighty-buildersPulse 2s infinite;
+  animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+}
+@keyframes mighty-buildersPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.wp-block-gallery.magnewspress-brands-logos .wp-block-image {
+  align-items: center;
+}
+.wp-block-gallery.is-style-enable-grayscale-mode-on-image .wp-block-image img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  transition: all ease-in 0.23s;
+  -webkit-transition: all ease-in 0.23s;
+  -moz-transition: all ease-in 0.23s;
+  -o-transition: all ease-in 0.23s;
+}
+.wp-block-gallery.is-style-enable-grayscale-mode-on-image .wp-block-image img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.wp-site-blocks > * + * {
+  margin-block-start: 0 !important;
+}
+.magnewspress-duotone-primary {
+  filter: var(--wp--preset--duotone--primary);
+}
+.wp-block-social-links.is-style-social-icon-border li a {
+  border: 1px solid;
+  border-radius: 50%;
+}
+.is-style-magnewspress-page-list-bullet-hide-style.wp-block-page-list,
+.wp-block-categories-list.is-style-magnewspress-categories-bullet-hide-style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wp-block-cover.is-style-magnewspress-cover-round-style {
+  border-radius: 7px;
+  overflow: hidden;
+}
+figure.wp-block-image.magnewspress-header-call,
+figure.wp-block-image.magnewspress-header-location {
+  background: var(--wp--preset--color--primary);
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.is-style-author-name-with-icon.wp-block-post-author-name:before,
+.is-style-author-name-with-white-icon.wp-block-post-author-name:before,
+.is-style-post-date-with-icon.wp-block-post-date:before,
+.is-style-post-date-with-white-icon.wp-block-post-date:before {
+  content: "";
+  width: 11px;
+  height: 13px;
+  background: var(--wp--preset--color--meta-color);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  display: inline-block;
+  margin-right: 7px;
+  margin-bottom: -1px;
+}
+.is-style-author-name-with-icon.wp-block-post-author-name:before,
+.is-style-author-name-with-white-icon.wp-block-post-author-name:before {
+  mask-image: url(../images/post-author.svg);
+}
+.is-style-post-date-with-icon.wp-block-post-date:before,
+.is-style-post-date-with-white-icon.wp-block-post-date:before {
+  mask-image: url(../images/post-date.svg);
+  margin-bottom: -3px;
+  width: 15px;
+  height: 15px;
+}
+.is-style-author-name-with-white-icon.wp-block-post-author-name:before,
+.is-style-post-date-with-white-icon.wp-block-post-date:before {
+  background: #fff;
+}
+
+@media (min-width: 600px) {
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primarybg-onhover li:hover,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primarybg-onhover li.wp-block-navigation-item.current-menu-item {
+    background-color: var(--wp--preset--color--primary) !important;
+    color: #fff;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondarybg-onhover li a:hover,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondarybg-onhover li.wp-block-navigation-item.current-menu-item {
+    background-color: var(--wp--preset--color--secondary) !important;
+    color: #fff;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primarycolor-onhover li a:hover,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primarycolor-onhover li.wp-block-navigation-item.current-menu-item {
+    color: var(--wp--preset--color--primary) !important;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondarycolor-onhover li a:hover,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondarycolor-onhover li.wp-block-navigation-item.current-menu-item {
+    color: var(--wp--preset--color--secondary) !important;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-whitebg-onhover li a:hover,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-whitebg-onhover li.wp-block-navigation-item.current-menu-item {
+    color: var(--wp--preset--color--primary) !important;
+    background-color: #fff;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primaryunderline-onhover li a:hover,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primaryunderline-onhover li.wp-block-navigation-item.current-menu-item {
+    color: var(--wp--preset--color--primary) !important;
+    position: relative;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primaryunderline-onhover li a:before,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li a:before,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primaryunderline-onhover li.wp-block-navigation-item.current-menu-item:before,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li.wp-block-navigation-item.current-menu-item:before {
+    width: 0;
+    transition: all ease 0.23s;
+    content: "";
+    height: 2px;
+    background-color: var(--wp--preset--color--primary);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primaryunderline-onhover li a:hover:before,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-primaryunderline-onhover li.wp-block-navigation-item.current-menu-item:before,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li a:hover:before,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li.wp-block-navigation-item.current-menu-item:before {
+    width: 100%;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li a:hover,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li.wp-block-navigation-item.current-menu-item {
+    color: var(--wp--preset--color--secondary) !important;
+    position: relative;
+  }
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li a:hover:before,
+  nav.wp-block-navigation ul.is-style-magnewspress-nav-secondaryunderline-onhover li.wp-block-navigation-item.current-menu-item:before {
+    background-color: var(--wp--preset--color--secondary);
+  }
+}
